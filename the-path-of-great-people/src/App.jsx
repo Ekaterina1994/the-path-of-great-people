@@ -1,6 +1,7 @@
-import './App.css';
+import "./App.css";
+const React = require("react");
 
-function App() {
+function App() {   
   return (
     <div className="App">
       hello!
