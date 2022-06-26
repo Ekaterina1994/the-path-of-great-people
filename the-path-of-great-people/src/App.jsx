@@ -1,12 +1,11 @@
 import "./App.css";
-import Info from "./info/info";
+import Main from "./main/main";
 const React = require("react");
 
-function App() {   
+function App() {
   return (
     <div className="App">
-      hello!
-      <Info />
+      <Main />
     </div>
   );
 }
