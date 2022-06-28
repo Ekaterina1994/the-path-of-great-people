@@ -1,10 +1,10 @@
 import React from "react";
-import "./main.css";
+import "./Main.css";
 
 const Main = () => {
   return (
     <div>
-      <div className="img">1</div>
+      <div className="main-background"></div>
     </div>
   );
 };

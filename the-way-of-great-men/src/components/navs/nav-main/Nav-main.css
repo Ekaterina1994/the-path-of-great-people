@@ -1,0 +1,16 @@
+.nav-main__menu {
+  position: absolute;
+  bottom: 90px;
+  right: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: Roboto;
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 53px;
+  letter-spacing: 0.3em;
+  text-align: left;
+  color: #b5bead;
+  list-style-type: none;
+}

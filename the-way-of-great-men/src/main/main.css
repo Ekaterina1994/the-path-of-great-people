@@ -1,7 +1,8 @@
-.img {
+.main-background {
   width: 100vw;
   height: 100vh;
-  background-image: url(../assets/img/background/van_gogh_last_work.jpg);
+  background: url(../assets/img/background/van-gogh-last-work.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: inset 0 0 0 100vh rgba(0, 0, 0, 0.7);
 }
