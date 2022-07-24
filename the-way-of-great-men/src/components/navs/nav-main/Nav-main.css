@@ -14,3 +14,8 @@
   color: #b5bead;
   list-style-type: none;
 }
+
+.nav-main__menu li:hover {
+  transition: 0.75s;
+  color: #efd05c;
+}
