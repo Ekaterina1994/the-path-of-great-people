@@ -17,5 +17,6 @@
 
 .nav-main__menu li:hover {
   transition: 0.75s;
+  transform: scale(1.1);
   color: #efd05c;
 }
