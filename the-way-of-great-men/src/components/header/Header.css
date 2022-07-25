@@ -1,7 +1,6 @@
 .header {
-  position: absolute;
-  top: 90px;
-  left: 100px;
+  padding-top: 90px;
+  padding-left: 100px;
   font-family: Roboto;
   font-size: 45px;
   font-weight: 300;

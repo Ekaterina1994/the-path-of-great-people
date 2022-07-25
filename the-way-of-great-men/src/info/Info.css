@@ -1,0 +1,39 @@
+.cvWrapper-info {
+  display: flex;
+  margin-top: 80px;
+}
+
+.imgContainer-info {
+  background-size: cover;
+  width: 330px;
+  height: 500px;
+  overflow: hidden;
+  margin-left: 100px;
+}
+
+.imgPhoto-info {
+  height: 100%;
+  width: 100%;
+}
+
+.overlay-info {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 330px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 53px;
+  letter-spacing: 0.2em;
+  color: #efd05c;
+  transition: 1s;
+}
+
+.imgContainer-info:hover .overlay-info {
+  transition: 1s;
+  margin-top: -200px;
+}

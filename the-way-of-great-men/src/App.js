@@ -8,13 +8,13 @@ import NavMain from "./components/navs/nav-main/Nav-main";
 import Options from "./options/options";
 import GameMode from "./game-mode/GameMode";
 import StartGame from "./start-game/StartGame";
+import PersonDescription from "./components/person-Description/PersonDescription";
 
 const React = require("react");
 
 function App() {
   return (
     <div className="App">
-      {/* <Main /> */}
       <Header />
 
       <Routes>
@@ -24,6 +24,9 @@ function App() {
         <Route path="/game-mode" element={<GameMode />} />
         <Route path="/options" element={<Options />} />
         <Route path="/info" element={<Info />} />
+
+        {/* <Route path="/about-game" element={<AboutGame />} /> */}
+        <Route path="/person-description" element={<PersonDescription />} />
       </Routes>
     </div>
   );
