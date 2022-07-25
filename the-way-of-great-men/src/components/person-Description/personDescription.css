@@ -1,0 +1,54 @@
+.cvWrapper {
+	display: flex;
+	margin-top: 285px;
+}
+
+.imgContainer {
+  background-size: cover;
+  width: 330px;
+  height: 500px;
+  overflow: hidden;
+	margin-left: 100px;
+}
+
+.imgPhoto {
+  height: 100%;
+  width: 100%;
+}
+
+.miniDescription {
+	margin-left: 140px;
+	width: 800px;
+	height: 500px;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.miniDescription p {
+	font-family: Roboto;
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 53px;
+  letter-spacing: 0.3em;
+  color: #b5bead;
+	text-align: center;
+}
+
+.link {
+	margin-top: 100px;
+	margin-right: 100px;
+	display: block;
+	text-align: right;
+  font-family: Roboto;
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 53px;
+  letter-spacing: 0.3em;
+  color: #b5bead;
+  list-style-type: none;
+}
+
+.link:hover {
+  transition: 0.75s;
+  transform: scale(1.1);
+  color: #efd05c;
+}
