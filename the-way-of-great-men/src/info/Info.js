@@ -2,9 +2,9 @@ import React from "react";
 const Info = () => {
   return (
     <div>
-          hello info!
+      hello info!
     </div>
   );
-}
+};
 
 export default Info;

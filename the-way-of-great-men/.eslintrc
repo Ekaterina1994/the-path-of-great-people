@@ -11,7 +11,7 @@
     "indent": ["error", 2],
     "linebreak-style": [
       ["error", "windows"],
-      ["error", "linux"]
+      ["error", "unix"]
     ],
     "quotes": ["error", "double"]
   },
