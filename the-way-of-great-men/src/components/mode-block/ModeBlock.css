@@ -1,0 +1,17 @@
+.imgContainer {
+	margin-top: 80px;
+	width: 330px;
+	height: 500px;
+}
+
+.modeBlockWrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 80px;
+}
+
+.modeButtons {
+	display: flex;
+	gap: 20px;
+	margin-left: 100px;
+}

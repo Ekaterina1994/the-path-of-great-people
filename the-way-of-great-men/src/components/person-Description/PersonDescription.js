@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./personDescription.css";
+import "./PersonDescription.css";
 
 const PersonDescription = () => {
   return (

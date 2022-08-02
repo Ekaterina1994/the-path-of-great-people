@@ -1,0 +1,12 @@
+.secondHeadline {
+  margin-top: 20px;
+  margin-left: 100px;
+  text-align: left;
+  font-family: "Roboto";
+	font-weight: 300;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #efd05c;
+}
